@@ -9,6 +9,7 @@
     {
       redirect_to(url_for('/index.php'));
     }
+    $subject_id = $page['subject_id'];
   }else{
     // nothing selected. Show the homepage.
   }
